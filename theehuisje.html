@@ -7,12 +7,12 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Nav Bar  source: Web Dev Simplified - YouTube - -->
+    <!-- Nav Bar -->
     <nav class="navbar">
       <div class="brand">
         <img src="https://i.imgur.com/KQ9WYrp.png" alt="Theehuisje" />
       </div>
-      <!-- Hamburger menu -->
+      <!-- Hamburger menu - source: Web Dev Simplified - YouTube -->
       <a href="#" class="toggle-btn" onclick="toggleButton">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -129,7 +129,7 @@
       const toggleBtn = document.getElementsByClassName("toggle-btn")[0]
       const navbarLinks = document.getElementsByClassName("nav-links")[0]
       // Adding an Onclick-event to the element representing the hamburger
-      // and toggle between active/non-active by class name
+      // and toggle between active/non-active by class property
       toggleBtn.addEventListener("click", () => {
         navbarLinks.classList.toggle("active")
       })

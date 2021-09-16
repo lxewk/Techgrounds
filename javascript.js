@@ -1,3 +1,5 @@
+// Second section, 6 identical images with sub text
+
 // Display image 6 times (Stack overflow)
 const teeNames = [
     "Gember Thee",
